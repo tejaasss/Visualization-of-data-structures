@@ -1,0 +1,106 @@
+body{
+    background-color: #f8f5f1;
+}
+.heading{
+    font-size: 60px;
+    font-family: 'RocknRoll One', sans-serif;
+    width: 40%;
+    text-align: center;
+    margin: auto auto auto auto;
+    padding-top:20px ;
+    color:#7868e6;
+    padding-bottom: 40px;
+}
+.row-one{
+    background-color: #a4ebf3
+}
+.stack-img{
+    float: left;
+    margin-left: 100px;
+    margin-right: 70px;
+   
+}
+.stack{
+    background-color:#f8f5f1 ;
+    font-size: 25px;
+    padding-top: 60px;
+    padding-right: 20px;
+  
+
+}
+.stack-btn{
+    margin-left: 15px;
+    text-align: left;
+}
+.queue-img{
+    float: right;
+
+    margin-right: 200px;
+    margin-left: 70px;
+}
+.queue{
+    background-color:#f8f5f1 ;
+    font-size: 25px;
+    padding-top: 90px;
+    padding-left: 70px;
+
+}
+.intopost{
+    background-color:#f8f5f1 ;
+    font-size: 25px;
+    padding-top: 90px;
+    padding-right: 20px;
+
+}
+.posteval{
+    background-color:#f8f5f1 ;
+    font-size: 25px;
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-bottom: 50px;
+
+}
+.footer{
+    background-color: #a4ebf3;
+    color:white;
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 40px;
+    font-family: 'RocknRoll One', sans-serif;
+    padding-top:20px ;
+}
+.header{
+    color:#7868e6;
+    margin-bottom: 7px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    margin-left: 370px;
+}
+hr{
+    width: 5%;
+    border-style:dotted none none none ;
+    border-width: 5px;
+    border-color:#7868e6;
+  
+    margin-top: 60px;
+    
+}
+.head{
+    color:#7868e6;
+    margin-bottom: 7px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+}
+.post-img{
+    float: right;
+    width: 200px;
+    margin-right: 200px;
+    margin-left: 70px;
+}
+.intopost-img{
+    float: left;
+    width: 200px;
+    margin-left: 100px;
+    margin-right: 70px;
+
+}

@@ -1,0 +1,161 @@
+body{
+    background-color: #f8f5f1;
+}
+.header{
+    background-color:#caf0f8 ;
+    text-align: center;
+    color:#1033b5;
+    height: 70px;  
+}
+#b{
+    background-color: #ade8f4;
+    padding-left: 10px;
+}
+.stack_box{
+	height: 65px;
+	border: 2px solid #8ac4d0 ;		
+}
+#rr{
+    height: 80px;
+}
+.second{
+    margin-top: 20px;
+}
+#h{
+    height: 400px;  
+}
+.box{
+    height:60px;
+    width:70px; 
+    border:2px solid black;
+    color:black;
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;  
+    background-color: #78c58e;   
+}
+.arrow{
+    text-align: center;
+    background-color:#f8f5f1;
+    font-size: 50px;
+    height: 60px;
+    width: 80px;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+.empty{
+    background-color: white;
+    width: 70px;
+    display: inline-block;
+}
+.block{
+    height: 45px;
+    color:white;
+    border: 2px solid black;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 13px;
+    margin-bottom: 8px;
+    
+}
+.boxk{
+    height:60px;
+    width:70px; 
+    border:2px solid black;
+    color:black;
+    font-size: 40px;
+    text-align: center;
+    display: inline-block;   
+    background-color: #78c58e;   
+}
+.top-block{
+    height: 50px;
+    background:#7474df;
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    border-radius: 13px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    
+}
+
+.top-arrow{
+    font-size: 50px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+.emt{
+   
+    height: 52px;
+}
+.topemp{
+   
+    height: 50px;
+}
+.bock{
+    height: 45px;
+    color:white;
+    border: 2px solid black;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 13px;
+    margin-bottom: 8px;
+    
+}
+.img{
+    height: 200px;
+    width: 350px;
+    margin-top: 20px;
+    
+}
+.text{
+    padding-left: 10px;
+    font-weight: bold;
+    
+}
+.elements{
+    margin-top: 55px;
+    height: 40px;
+    width: 75px;
+    background-color: white;
+    text-align: center;
+    background-color: #c6a9a3;
+    font-weight: bolder;
+    border-radius: 12px;
+    
+   
+}
+.oper{
+    margin-top: 8px;
+    height: 40px;
+    width: 120px;
+    background-color:white;
+    text-align: center;
+    background-color: #c6a9a3;
+    border-color: black;
+    border-radius: 12px;
+    font-weight: bolder; 
+}
+.topval{
+    margin-top: 15px;
+    height: 40px;
+    width: 75px;
+    background-color:white;
+    text-align: center;
+    background-color: #c6a9a3;
+    font-weight: bolder;
+    border-radius: 12px;
+   
+}
+.steps{
+    height: 200px;
+    text-align: center;
+   
+}
+.step{
+    text-align: center;
+}
+#q{
+    margin-right: 20px;
+}

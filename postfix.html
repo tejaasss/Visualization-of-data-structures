@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Postfix Evaluation</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="postfix.css">
+</head>
+<body>
+    <div class='header'>
+        <h1>Postfix Evaluation</h1>
+    </div>
+    
+    <div id="b">
+        <button id="p" class="btn btn-info">Go</button>
+        <input type="text" name="" placeholder="Enter the expression">
+        <button id='q' class='btn btn-info'>Next Step</button>
+        <button class="btn btn-info" onClick="window.location.reload();">Refresh Page</button>
+    </div>
+
+    <div class='row outer'>
+        <div class='col-xl-2'>
+        </div>
+        <div id='rr' class='col-xl-8'>   
+        </div>
+        <div class='col-xl-2'>
+        </div>
+    </div>
+
+    <div class='row'>
+        <div class='col-xl-2'>
+        </div>
+        <div class='col-xl-8'>
+        <h1 class='stack_box'></h1>
+        </div>
+    <div class='col-xl-2'>
+    </div>
+
+    </div>
+    <div class='row second'>
+        <div class='col-lg-2 col-md-4'>
+            <h3>Operations</h3>
+                    <br><h6 class='text'>No of elements in Stack -</h6>
+		            <br><h6 class='text'>Operation - </h6> 
+		            <br><h6 class='text'>Index position of Top -</h6>	    
+		           
+        </div>
+        <div class='col-lg-1 col-md-2'>
+            <div class='elements'></div>
+            <div class='oper'></div>
+            <div class='topval'></div>
+            
+            
+
+    </div>
+
+        <div class='col-lg-3 col-md-6'>
+            <div class='row space justify-content-center'>
+            <div id="h" class="col-3 d-flex flex-column-reverse border-right border-left border-bottom">
+                <div class='stackempty'></div>          
+            </div>
+            <div id='ar' class="col-3 d-flex flex-column-reverse">
+            </div>
+            <div id="c" class="col-3  d-flex flex-column-reverse">
+            </div>
+            </div>
+            </div>
+
+        <div class='col-lg-3 col-md-6'>
+            <h3 class='step'>Steps</h3>
+            <div class='row'>
+                <div class='col-lg-12'>
+                 <h4 class='steps'></h4>   
+                </div>
+            </div>
+            
+        </div>
+        <div class='col-lg-3 col-md-6'>
+            <h6>
+                <img class='img'src="userguide.png">
+            </h6>
+            <h2>How to Get Started</h2>
+            <ul>
+                <li>Initially the Stack would be empty.</li>
+                <li>Top Pointer would be -1 pointing to NULL Value. </li>
+                <li>Enter the required postfix expression and click 'Go'.</li>
+                <li>The elements would appear on the screen.</li>
+                <li>On clicking the 'Next Step' evaluation would be started and corresponding operations would be done in stack.</li>
+                <li>The last element reamaining towards which the top pointer is pointing would be the result of expression. </li>
+            </ul>
+            <br>
+
+            
+        </div>
+    </div>
+    <script src="postfix.js" async defer></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Queue</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="queue1.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="a">
+            <h1 id='heading'>Linear Queue</h1>
+        </div>
+        <div id="b" class='row'>
+            <div class='col-xl-3 col-md-6'>
+                <button id="q" class="btn btn-info">Enque</button>
+                <input type="text" name="" placeholder="Enter the element" >
+            </div>
+            <div class='col-xl-3 col-md-6'>
+                <button id="s" class="btn btn-info">Deque</button>
+
+            </div>
+
+            
+       
+
+
+            
+        </div>
+
+        
+        <div class='row outer'>
+            <div class='col-xl-2'>
+            </div>
+            <div id='rr' class='col-xl-8'>   
+            </div>
+            <div class='col-xl-2'>
+            </div>
+        </div>
+
+        <div class='row inner'>
+            <div class='col-xl-2'>
+            </div>
+            <div id='ra' class='col-xl-8'>   
+            </div>
+            <div class='col-xl-2'>
+            </div>
+        </div>
+        
+        <div class='row'>
+            
+            <div class='col-xl-2'>
+            </div>
+            <div class='col-xl-8'>
+            <div class='stack_box'>
+            <div class='stackempty'></div>
+            </div>    
+            </div>
+        <div class='col-xl-2'>
+        </div>
+        </div>
+
+        <div class='row innerend'>
+            <div class='col-xl-2'>
+            </div>
+            <div id='fa' class='col-xl-8'>   
+            </div>
+            <div class='col-xl-2'>
+            </div>
+        </div>
+
+        <div class='row outerend'>
+            <div class='col-xl-2'>
+            </div>
+            <div id='fr' class='col-xl-8'>
+            </div>
+            <div class='col-xl-2'>
+            </div>
+        </div>
+    
+
+
+
+        <div class='row second'>
+            <div class='col-xl-2 col-md-4 col-sm-6 data'>
+                
+                    <br><h6 class='text'>No of elements in Queue -</h6>
+		            <br><h6 class='text'>Operation - </h6> 
+		            <br><h6 class='text'>Index position of Front -</h6>	    
+		            <br><h6 class='text'>Index position of Rear -</h6>
+                </div>   
+                
+            <div class='col-xl-1 col-md-4 col-sm-6'>
+                    <div class='elements'></div>
+                    <div class='oper'></div>
+                    <div class='frontval'></div>
+                    <div class='rearval'></div>
+                    
+        
+            </div>
+
+                 
+		    
+            
+
+            
+      
+
+            <div class='col-xl-5 col-md-4 col-sm-12 '>
+                <h2 class='step'>Steps</h2>
+
+                <div class='row'>
+                    <div class='col-lg-12'>
+                     <h4 class='steps'></h4>   
+                    </div>
+                </div>
+
+            </div>
+            <div class='col-xl-4 col-md-6 '>
+                <div class='footer'>
+                <h6>
+                    
+                    <img class='img'src="userguide.png">
+                    
+                    </h6>
+                    <h2>Instructions</h2>
+                    <ul>
+                        <li>Enqueue - Used to add an element to the queue.</li>
+                        <li>Dequeue - Used to remove an element from the queue.</li>
+                    </ul>
+                    <br>
+                    <h2>Note</h2>
+                    <ul>
+                        <li>The Maximum capacity of Queue is of size 11.</li>
+                    </ul>
+                    <br>
+                    <h2>How to start</h2>
+                    <ol>
+                        <li>You would see Queue empty.</li>
+                        <li>Front and rear value is -1 means currently it is pointing to none.</li>
+                        <li>Give a value to the input box of enqueue and click enqueue.</li>
+                        <li>You can keep on adding elements in the queue using <br>enqueue button.</li>
+                        <li>To remove an element use dequeue button.</li>
+                    </ol>
+                    </div>
+            </div>
+
+
+
+        </div>
+
+
+        
+        
+        <script src="queue2.js" async defer></script>
+    </body>
+</html>

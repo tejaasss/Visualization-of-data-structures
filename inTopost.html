@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="inTopost.css">
+    <title>Infix To Postfix</title>
+  </head>
+  <body>
+    <div id='a'>
+        <h1>Infix To Postfix</h1>
+    </div>
+
+
+    <div class="row justify-content-between" id="b">
+        <div class="col-md-6 col-lg-4" >
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Enter infix expression" >
+                <div class="input-group-append">
+                    <button class="btn btn-info" id='next' type="button">Next Step</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <button class="btn btn-info" onClick="window.location.reload();">Refresh Page</button>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="row justify-content-center" id='c'>
+        <div class="col-md-6 col-lg-4">
+            <div class="input-group mb-2">
+                <input type="text" class="form-control" id="Postfix" placeholder="Postfix expression">
+            </div>
+        </div>
+    </div>
+
+
+    <div class='row inline justify-content-center' id='d'>
+        
+    </div>
+
+
+    <div class='row justify-content-center'>
+        <div class="space col-md-8 col-lg-4 order-lg-0 order-md-2 how">
+            <img src="userguide.png" height="200px"  width=100%>
+            <h4 style="text-align: center;">How to start</h4>
+            <ol>
+                <li>You would see stack empty</li>
+                <li>Enter a valid infix expression in respective input box</li>
+                <li>By clicking on next step you will get step by step visualisation of the conversion</li>
+                <li>In the end you would get a valid Postfix expression in input box of postfix expression</li>
+            </ol>
+        </div>
+
+
+            
+        <div class="col-lg-4 col-md-6 order-lg-0 order-md-0">
+            <div class="row justify-content-center ">
+                <div class="col-4 col space d-flex flex-column-reverse border-3 border-right border-dark border-left border-bottom" id="stack_box">
+                    <p style="text-align: center;">Empty stack</p>
+                </div>  
+            </div>
+        </div>
+
+
+
+
+        <div class="space col-md-6 col-lg-4 order-lg-2 order-md-1 ">
+            <h1>Steps</h1>
+            <div class="steps">
+
+            </div>
+            
+        </div>
+        
+
+
+    </div>
+
+    <script src="inTopost.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

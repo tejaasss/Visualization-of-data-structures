@@ -1,0 +1,189 @@
+body{
+    background-color: #f8f5f1 !important;
+}
+
+#a{
+    background-color: #caf0f8;
+    font-family: Bahnschrift SemiBold;
+    color:#1033b5;
+    height: 60px;
+    text-align: center;
+}
+
+h1{
+    
+	font-size:2rem;
+	margin: 0px !important;
+    
+}
+#heading{
+    text-align: center;
+    font-size: 45px;
+    padding-top: 6px;
+    
+}
+
+#b{
+    background-color:  #ade8f4;
+    padding-left: 30px;
+   
+}
+#q{
+    margin-bottom: 2px;
+}
+.stack_box{
+	height: 70px;
+	border: 2px solid #8ac4d0 ;		
+}
+
+.square{
+    
+    width:70px; 
+    border:2px solid white;
+    color:white;
+    font-size: 40px;
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 13px;
+    margin-top: 0.5rem;
+   
+}
+.empty{
+    background-color: #f8f5f1;
+    width: 80px;
+}
+
+h3{
+    display: inline-block;   
+}
+
+.outer{
+    margin-top: 20px;
+}
+.rear-block{
+    height: 50px;
+    width: 80px;
+    background:#7474df;
+    border:2px solid black;
+    font-size: 30px;
+    margin-bottom: 0px; 
+    text-align: center;
+    border-radius: 13px;
+    color: white;
+    
+   
+
+}
+.front-block{
+    height: 50px;
+    width: 82px;
+    background:#7474df;
+    border:2px solid black;
+    font-size: 30px;
+    margin-bottom: 0px; 
+    text-align: center;
+    border-radius: 13px;
+    color: white;
+
+}
+
+.rear-arrow{
+    text-align: center;
+    background-color:#f8f5f1;
+    font-size: 50px;
+    height: 60px;
+    width: 80px;
+    margin-bottom: 6px;
+}
+.front-arrow{
+    text-align: center;
+    background-color:#f8f5f1;
+    font-size: 50px;
+    height: 60px;
+    width: 80px;
+    margin-bottom: 0px;
+    
+}
+
+
+.elements{
+    margin-top: 8px;
+    height: 40px;
+    width: 75px;
+    background-color: white;
+    text-align: center;
+    background-color: #c6a9a3;
+    font-weight: bolder;
+    border-radius: 12px;
+    
+   
+}
+.oper{
+    margin-top: 8px;
+    height: 40px;
+    width: 75px;
+    background-color:white;
+    text-align: center;
+    background-color: #c6a9a3;
+    border-color: black;
+    border-radius: 12px;
+    font-weight: bolder;
+    
+    
+    
+   
+}
+.frontval{
+    margin-top: 15px;
+    height: 40px;
+    width: 75px;
+    background-color:white;
+    text-align: center;
+    background-color: #c6a9a3;
+    font-weight: bolder;
+    border-radius: 12px;
+   
+}
+.rearval{
+    margin-top: 8px;
+    height: 40px;
+    width: 75px;
+    text-align: center;
+    background-color: #c6a9a3;
+    font-weight: bolder;
+    border-radius: 12px;
+   
+}
+.second{
+    margin-top: 40px;
+}
+.img{
+    height: 200px;
+    width: 350px;
+    
+}
+.last{
+    padding-right: 10px;
+}
+.text{
+    padding-left: 10px;
+    font-weight: bold;
+    
+}
+.footer{
+    padding-right: 20px;
+}
+.data{
+    padding-bottom: 40px;
+}
+.steps{
+    height: 200px;
+    text-align: center;
+   
+}
+.step{
+    text-align: center;
+}
+.pranav{
+    
+}

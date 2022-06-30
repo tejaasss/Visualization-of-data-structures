@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Stack</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Stack 1.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    </head>
+    <body>
+        <div id="a">
+            <h1>STACKS</h1>
+        </div>
+        <div id="b" class='row'>
+            <div class='col-xl-3 col-md-4'>
+            <button id='p'class="btn btn-info">Push</button>
+            <input type="text" name=""placeholder="Enter the element" >
+        </div>
+
+            <div class='col-xl-3 col-md-4'>
+            <button id='q' class="btn btn-info">Pop</button>
+        </div>
+        <div class='col-xl-3 col-md-4'>
+            <button id='r' class="btn btn-info">Multi Pop</button>
+            <input type="text" name="" placeholder="Enter the no. of elements" >
+        </div>
+        
+    </div>
+        
+        <div class="row second">
+     
+            <div class='col-xl-2 col-md-4 col-sm-6 data'>
+                <br><h6 class='text'>No of elements in Stack -</h6>
+                <br><h6 class='text'>Operation - </h6> 
+                <br><h6 class='text'>Index position of Top -</h6>	    
+            </div> 
+
+            <div class='col-xl-1 col-md-4 col-sm-6 data'>
+                <div class='elements'></div>
+                <div class='oper'></div>
+                <div class='topval'></div>
+                
+    
+        </div>
+
+            <div class="col-xl-3 align-self-center col-md-6 data">
+     
+                <div class="row space justify-content-center">                   
+                    <div id="h" class="col-3 d-flex flex-column-reverse border-right border-left border-bottom">
+                        <div class='stackempty'></div>    
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    <div id='ar' class="col-2 d-flex flex-column-reverse">
+                        
+                        
+
+                    </div>
+                    <div id="c" class="col-3  d-flex flex-column-reverse">
+                        
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-xl-3 col-md-6  data ">
+                <h2 class='stepname''>Steps</h2>
+
+                <div class='row'>
+                    <div class='col-lg-12'>
+                    
+                        <p class='steps'></p>
+                        </div>
+                    
+                </div>
+            </div> 
+
+           <div class="col-xl-3 col-md-6 data">
+                <h6>
+                <img class='img' src="userguide.png">
+                </h6>
+                <h2>Instructions</h2>
+                <ul>
+                    <li>Push - Used to add an element in the stack</li>
+                    <li>Pop - Used to remove an element from the stack</li>
+                    <li>Multi Pop - Used to pop multiple elements from the stack</li>
+                    <li>Maximum capacity of Stack is 7 elements.</li>
+                </ul>
+                <br>
+                <h2>How to start</h2>
+                <ol>
+                    <li>You would see stack empty</li>
+                    <li>Top value is -1 means currently it is pointing to none</li>
+                    <li>Give a value to the input box of push and click push</li>
+                    <li>You can keep on adding elements in the stacks using push button</li>
+                    <li>To remove an element use pop button</li>
+                </ol>
+           </div>
+        </div>
+        
+        <script src="Stack 1.js" async defer></script>
+    </body>
+</html>
